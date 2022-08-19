@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JSON Server</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li class="title">Makers Movies API</li>
+            <li>
+              <a href="https://makers.courses">
+                <i class="fas fa-burn"></i>Makers Courses
+              </a>
+            </li>
+            <li>
+              <a href="https://thanks.typicode.com">
+                <i class="far fa-laugh"></i>Supporters
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/users/typicode/sponsorship">
+                <i class="fas fa-heart"></i>GitHub Sponsors
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Добро пожаловать в документацию по API!</h1>
+
+        <div id="resources"></div>
+        <p>
+          Для доступа и изменения ресурсов вы можете использовать любой HTTP
+          метод:
+        </p>
+        <p>
+          <code>GET</code>
+          <code>POST</code>
+          <code>PUT</code>
+          <code>PATCH</code>
+          <code>DELETE</code>
+          <code>OPTIONS</code>
+        </p>
+
+        <h1 id="routes">
+          <a
+            id="user-content-routes"
+            class="anchor"
+            href="#routes"
+            aria-hidden="true"
+            ><span aria-hidden="true" class="octicon octicon-link"></span></a
+          >Маршруты
+        </h1>
+        <code>GET /items</code><br />
+        <code>GET /items/1</code><br />
+        <code>POST /items</code><br />
+        <code>PUT /items/1</code><br />
+        <code>PATCH /items/1</code><br />
+        <code>DELETE /items/1</code>
+        <div id="custom-routes"></div>
+        <h1 id="pagination">
+          <a
+            id="user-content-routes"
+            class="anchor"
+            href="#pagination"
+            aria-hidden="true"
+            ><span aria-hidden="true" class="octicon octicon-link"></span></a
+          >Пагинация
+        </h1>
+        <p>
+          Используйте <code>_page</code> для пагинации и, при необходимости,
+          <code>_limit</code> для лимитрования возвращаемых данных в одной
+          странице.
+        </p>
+        <p>
+          В headers Link вы получите ссылки на первую, предыдущую, следующую и
+          последнюю страницы.
+        </p>
+        <code>GET /items?_page=7</code> //возратит 7 страницу с 10 элементами
+        <br />
+        <code>GET /items?_page=7&_limit=20</code> //возратит 7 страницу с 20
+        элементами
+
+        <h1>Документация json-server</h1>
+        <p>
+          <a href="https://github.com/typicode/json-server"> README </a>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          To replace this page, create a
+          <code>./public/index.html</code> file.
+        </p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
