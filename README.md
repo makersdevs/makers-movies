@@ -1,7 +1,7 @@
 # Добро пожаловать в документацию по API!
 
 ## Ресурсы
-/items -> https://makers-movies.herokuapp.com/items
+- `/items` -> https://makers-movies.herokuapp.com/items
 
 Для доступа и изменения ресурсов вы можете использовать любой HTTP метод:
 
