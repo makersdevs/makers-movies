@@ -23,8 +23,8 @@
 
 В headers Link вы получите ссылки на первую, предыдущую, следующую и последнюю страницы.
 
-- `GET /items?_page=7` //возратит 7 страницу с 10 элементами
-- `GET /items?_page=7&_limit=20` //возратит 7 страницу с 20 элементами
+- `GET /items?_page=7` // [возратит 7 страницу с 10 элементами](https://makers-movies.herokuapp.com/items?_page=7)
+- `GET /items?_page=7&_limit=20` // [возратит 7 страницу с 20 элементами](https://makers-movies.herokuapp.com/items?_page=7&_limit=20)
 
 ## Полная документация от json-server
 
