@@ -1,4 +1,4 @@
-`# Добро пожаловать в документацию по API!
+# Добро пожаловать в документацию по API!
 
 ## Ресурсы
 /items -> https://makers-movies.herokuapp.com/items
