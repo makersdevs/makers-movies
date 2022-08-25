@@ -30,4 +30,8 @@
 
 [Readme](https://github.com/typicode/json-server)
 
+# Предупреждения
+*это копия от IMDBApi, не использовать для коммерческих проектов
+
+
 
